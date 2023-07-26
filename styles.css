@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+html {
+    overflow-x: hidden;
+}
+header {
+    background-image: url(Images/header-bg.png);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.header-content {
+    margin-bottom: 200px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 4vmin;
+}
+
+.line {
+    height: 4px;
+    background-color: #fc036b;
+    ;
+    width: 150px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+.btn {
+    background-color: #fc036b;
+    padding: 8px 16px;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.active {
+    color: #fc036b;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/** NAVBAR**/
+
+
+.navbar {
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links li {
+    margin: 0 20px;
+}
+
+/** EVENTS SECTION **/
+
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(73, 73, 126);
+    margin-bottom: 40px;
+}
+
+
+.boxes-div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.left-box img {
+    width: 80%;
+        border-radius: 6px;
+
+
+}
+
+.right-box img {
+    width: 80%;
+    border-radius: 6px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col p {
+    text-align: center;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(73, 73, 126);
+
+
+}
+
+.col h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 4vmin;
+    margin: 16px auto;
+    color: rgb(73, 73, 126);
+
+}
+
+/** EXPLORE SECTION **/
+
+.explore-section {
+    height: 600px;
+    width: 100%;
+    background-image: url(Images/bg2.png);
+    background-size: cover;
+    background-position: bottom;
+    padding: 40px;
+}
+
+.explore-section .line {
+ margin: 10px 4px;
+ margin-bottom: 80px;
+}
+
+.explore-content {
+margin-top: 60px;
+margin-left: 20px;
+color: whitesmoke;
+
+}
+
+.explore-content h2 {
+    font-weight: bold;
+    font-size: 7vmin;
+}
+
+.explore-content p {
+    width: 50%;
+    margin-bottom: 80px;
+}
+
+.explore-content .btn {
+    width: 10%;
+}
+
+
+
+/** TOUR SECTION **/
+
